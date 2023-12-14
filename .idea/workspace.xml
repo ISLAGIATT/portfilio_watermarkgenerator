@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="04c456ef-5d5c-46b4-b029-51b7fff1aaa8" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/profiles_settings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/watermarking_app.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/watermark.jpg" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 6
+}]]></component>
+  <component name="ProjectId" id="2ZVCy4KrguFFkWN75Ic1OiYdajT" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Python.main.executor": "Run",
+    "RunOnceActivity.OpenProjectViewOnStart": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "git-widget-placeholder": "master",
+    "ignore.virus.scanning.warn.message": "true"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration name="main" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
+      <module name="watermarking_app" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/main.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SharedIndexes">
+    <attachedChunks>
+      <set>
+        <option value="bundled-python-sdk-7a29c1521ef0-d3b881c8e49f-com.jetbrains.pycharm.community.sharedIndexes.bundled-PC-233.11799.298" />
+      </set>
+    </attachedChunks>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="04c456ef-5d5c-46b4-b029-51b7fff1aaa8" name="Changes" comment="" />
+      <created>1702498110188</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1702498110188</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="com.github.evgenys91.machinet.common.dslhistory.DslHistoryState">
+    <option name="historyDtoById">
+      <map>
+        <entry key="89ac54">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+              <option name="id" value="89ac54" />
+              <option name="initiateTms" value="1702511728738" />
+              <option name="request" value="how do i keep this script from prompting for filepath upon execution" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To prevent the script from prompting for a file path upon execution, you can modify the code to remove the file dialog and use a default file path instead. Here's an updated version of the code:&#10;&#10;```python&#10;import tkinter as tk&#10;&#10;def main():&#10;    root = tk.Tk()&#10;    root.title(&quot;My Tkinter App&quot;)&#10;    &#10;    # Add your widgets and logic here&#10;    &#10;    # Example: Display a label&#10;    label = tk.Label(root, text=&quot;Hello, Tkinter!&quot;)&#10;    label.pack()&#10;    &#10;    root.mainloop()&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()&#10;```&#10;&#10;In this version, I've removed the file dialog code and added an example of displaying a label. You can add your own widgets and logic inside the `main` function. This way, the script will run without prompting for a file path. Let me know if you have any further questions!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1702511731004" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="a4f0d5">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+              <option name="id" value="a4f0d5" />
+              <option name="initiateTms" value="1702511759299" />
+              <option name="request" value="how do i keep this script from running the upload_file function upon open" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="To prevent the `upload_file` function from running automatically when the script is executed, you can remove the line `image = Image.open(upload_file())` from the code. Here's the updated code:&#10;&#10;```python&#10;import tkinter as tk&#10;from tkinter import filedialog&#10;from PIL import Image, ImageTk&#10;&#10;def upload_file():&#10;    f_types = [('Jpg Files', '*.jpg')]&#10;    filename = filedialog.askopenfilename(filetypes=f_types)&#10;    img = ImageTk.PhotoImage(file=filename)&#10;    b2 = tk.Button(parent, image=img) # using Button&#10;    b2.grid(row=3, column=1)&#10;    return img&#10;&#10;def main():&#10;    parent = tk.Tk()&#10;    parent.title(&quot;Watermark Generator&quot;)&#10;    parent.config(padx=100, pady=50)&#10;&#10;    # Canvas&#10;    canvas = tk.Canvas(width=600, height=400, highlightthickness=0)&#10;&#10;    my_font1 = ('times', 18, 'bold')&#10;    l1 = tk.Label(parent, text='Add Student Data with Photo', width=30, font=my_font1)&#10;    l1.grid(row=1, column=1)&#10;    b1 = tk.Button(parent, text='Upload File', width=20, command=lambda: upload_file())&#10;    b1.grid(row=2, column=1)&#10;&#10;    parent.mainloop()&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()&#10;```&#10;&#10;Now, the `upload_file` function will only be called when the &quot;Upload File&quot; button is clicked, rather than automatically upon execution. Let me know if you have any further questions!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1702511763717" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="fd6f78">
+          <value>
+            <ChatHistoryModel>
+              <option name="contextFilesPaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+              <option name="id" value="fd6f78" />
+              <option name="initiateTms" value="1702498139272" />
+              <option name="request" value="can you construct some tkinter boilerplate" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="Of course! Here's a basic Tkinter boilerplate code that you can use as a starting point:&#10;&#10;```python&#10;import tkinter as tk&#10;&#10;def main():&#10;    root = tk.Tk()&#10;    root.title(&quot;My Tkinter App&quot;)&#10;    &#10;    # Add your widgets and logic here&#10;    &#10;    root.mainloop()&#10;&#10;if __name__ == &quot;__main__&quot;:&#10;    main()&#10;```&#10;&#10;This code sets up a basic Tkinter application with a main window. You can add your widgets and logic inside the `main` function. Feel free to modify it according to your needs. Let me know if you need any further assistance!" />
+              <option name="responseFileName" value="" />
+              <option name="responseFilePath" value="" />
+              <option name="responseTms" value="1702498141402" />
+              <option name="usedLocalFilePaths">
+                <list>
+                  <option value="$PROJECT_DIR$/main.py" />
+                </list>
+              </option>
+            </ChatHistoryModel>
+          </value>
+        </entry>
+        <entry key="greeting">
+          <value>
+            <ChatHistoryModel>
+              <option name="id" value="greeting" />
+              <option name="initiateTms" value="1702498128816" />
+              <option name="request" value="" />
+              <option name="response" value="" />
+              <option name="responseDescription" value="&#10;Hello, I am Machinet AI - context aware chat, which can help you with your daily programming routine. How can I help?" />
+              <option name="responseTms" value="1702498130520" />
+            </ChatHistoryModel>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
